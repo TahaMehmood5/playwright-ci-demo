@@ -15,7 +15,7 @@ module.exports = defineConfig({
 
   // Global browser settings
   use: {
-    headless: false, // Set to true if you want to hide the browser
+    headless: true, // Set to true if you want to hide the browser
     screenshot: 'only-on-failure', // Take screenshot only if test fails
     trace: 'on-first-retry', // Record trace only when test fails first time
     video: 'retain-on-failure', // Optional: Keep video only when test fails
